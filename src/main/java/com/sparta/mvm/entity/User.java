@@ -1,5 +1,6 @@
 package com.sparta.mvm.entity;
 
+import com.sparta.mvm.dto.ProfileRequestDto;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -41,7 +42,6 @@ public class User extends Timestamped {
     @Column(name = "USER_STATUS_TIME", nullable = false)
     private LocalDate userStatusTime;
 
-
 /*    public void User(UserRequestDto userRequestDto){
 
         this.loginId = userRequestDto.getLoginid();
@@ -55,4 +55,10 @@ public class User extends Timestamped {
     @OneToMany(mappedBy = "user")
     private List<Post> post;
 
+    public void update(ProfileRequestDto requestDto) {
+        this.name = requestDto.getName();
+        this.email = requestDto.getEmail();
+        this.lineIntro = requestDto.getLineIntro();
+        this.password = requestDto.getChangedPassword();
+    }
 }
