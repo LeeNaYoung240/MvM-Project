@@ -251,21 +251,5 @@
 
 [![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)](https://teamsparta.notion.site/7-c0c2778e462a4bf297c1d11fb965c180)
 
-<br>
-
-## 🩹 개선 사항
-
-<details>
-<summary>테스트 코드 추가</summary>
-<div markdown="1">
-
-<br>
-
-- 개인 : Controller, Service, Entity, DTO 레이어에 맞는 단위 테스트 작성
-
-
-</div>
-</details>
-
 
 
