@@ -251,9 +251,7 @@
 
 [![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)](https://teamsparta.notion.site/7-c0c2778e462a4bf297c1d11fb965c180)
 
-<br>
 
-# 📸 video
 
 
 
